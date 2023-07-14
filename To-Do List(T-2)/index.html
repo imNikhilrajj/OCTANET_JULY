@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do Maker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="logo">
+          <img
+            src="https://img.freepik.com/premium-vector/cute-checklist-with-pen-cartoon_346903-1307.jpg?size=626&ext=jpg&ga=GA1.1.1957591243.1688626906&semt=ais"
+            height="50px"
+            alt="logo"
+          />To-Do Maker
+        </li>
+        <li class="sign">Login</li>
+        <li class="sign">SignUp</li>
+      </ul>
+    </nav>
+
+    
+      <div class="main-content">
+        <h1>Make your To-Do List</h1>
+        <p>Manage your time and Be Productive</p>
+        <button class="btn">Get Started</button>
+      </div>
+    <div>
+        <div class="listcontainer">
+            <div class="header">
+                <h1> To-Do List <img src="listimage.png" alt="listlogo" height="50px"></h1>
+            </div>
+            <div class="search">
+                <input type="text" id="input-box" placeholder="write your task...">
+                <button onclick="addTask()">Add</button>
+            </div>
+            <div class="task">
+                <ul id="list-container">
+                    <!-- <li class="checked">Task 1</li>
+                    <li>Task 2</li>
+                    <li>Task 3</li> -->
+                </ul>
+              </div>
+            </div>
+    <div class="copyright">
+        <p>© 2023 To-Do Maker. All rights reserved.</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
